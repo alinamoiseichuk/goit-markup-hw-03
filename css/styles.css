@@ -1,0 +1,199 @@
+body {
+font-family: 'Roboto', sans-serif;  
+color:#434455; 
+background: #FFF;
+}
+
+.list {
+list-style-type: none; 
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    color:#4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-text {
+color:#2E2F42;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.menu-link {
+color:#2E2F42;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.50; 
+letter-spacing: 0.02em; 
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color:#404BBF;
+font-size: 16px;
+font-weight: 500;
+line-height: 0.66; 
+letter-spacing: 0.02em;
+}
+
+.contacts {
+font-style: normal;
+}
+
+.contacts-link {
+color:#434455;   
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;   
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+color:#404BBF;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50; 
+letter-spacing: 0.02em;
+}
+
+.main-page {
+background:#2E2F42;
+}
+
+.main-title {
+color:#FFF;
+text-align: center;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+}
+
+button {
+cursor: pointer;
+background:#4D5AE5;
+}
+
+.buttun-text {
+color: #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.50; 
+letter-spacing: 0.04em;
+}
+
+button:hover,
+button:focus {
+background: #404BBF;
+}
+
+.benefits-title {
+ color: #fff;   
+}
+
+.benefits-list-title {
+color:#2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.20;
+letter-spacing: 0.02em; 
+}
+
+.benefits-list-item {
+font-size: 16px;
+font-weight: 400;
+line-height: 1.50;
+letter-spacing: 0.02em;
+}
+
+.team-section {
+background:#F4F4FD;
+}
+
+.team-title {
+color:#2E2F42;
+text-align: center;
+font-size: 36px;
+line-height: 1.11; 
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.images-team {
+background: #FFF;
+}
+
+.team-list-title {
+color:#2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.20;
+letter-spacing: 0.02em;
+}
+
+.team-list-item {
+font-size: 16px;
+line-height: 1.50; 
+letter-spacing: 0.02em;
+}
+
+.portfolio-title {
+color:#2E2F42;
+text-align: center;
+font-size: 36px;
+line-height: 1.11; 
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.images-portfolio {
+border: 1px solid #E7E9FC;
+background:#FFF;
+}
+
+.portfolio-list-title {
+color:#2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.20;
+letter-spacing: 0.02em;
+}
+
+.portfolio-list-item {
+font-size: 16px;
+line-height: 1.50; 
+letter-spacing: 0.02em;
+}
+
+.section-footer {
+background:#2E2F42;
+}
+
+.logo-text-footer {
+color: #F4F4FD;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 0.85; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.text-footer {
+color:#F4F4FD;
+font-size: 16px;
+line-height: 1.50; 
+letter-spacing: 0.02em;
+}
