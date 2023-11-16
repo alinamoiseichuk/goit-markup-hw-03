@@ -125,6 +125,11 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .main-page {
 background:#2E2F42;
 }
@@ -135,6 +140,8 @@ text-align: center;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
+width: 496px;
+margin-bottom: 48px;
 }
 
 button {
@@ -148,6 +155,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.50; 
 letter-spacing: 0.04em;
+padding: 16px 32px;
+gap: 10px; 
 }
 
 button:hover,
