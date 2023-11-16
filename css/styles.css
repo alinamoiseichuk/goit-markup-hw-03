@@ -4,12 +4,46 @@ color:#434455;
 background: #FFF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;  
+}
+
+img {
+    display: block;
+}
+
+.container { 
+    max-width: 
+    padding-left:  
+    padding-right:  
+    margin-left:  
+    margin-right:  
+    }
+
 .list {
 list-style-type: none; 
 }
 
 .link {
     text-decoration: none;
+}
+
+.header-container {
+display: flex;
 }
 
 .logo {
@@ -20,6 +54,11 @@ list-style-type: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    display: inline-flex;
+height: 24px;
+align-items: center;
+flex-shrink: 0;
 }
 
 .logo-text {
@@ -37,7 +76,11 @@ color:#2E2F42;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.50; 
-letter-spacing: 0.02em; 
+letter-spacing: 0.02em;
+
+display: inline-flex;
+align-items: flex-start;
+gap: 40px;
 }
 
 .menu-link:hover,
