@@ -28,9 +28,11 @@ img {
 
 .container { 
     max-width: 1158px; 
-    padding: 0 15px 0 15px;  
-    margin: 0 auto;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .list {
 list-style-type: none; 
@@ -39,6 +41,25 @@ list-style-type: none;
 .link {
     text-decoration: none;
 }
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .header {
 border-bottom: 1px solid #E7E9FC;
@@ -52,6 +73,7 @@ background: #FFF;
 
 .menu-nav {
     display: flex;
+    justify-content: space-between;
     align-items: center; 
 }
 
@@ -125,13 +147,15 @@ line-height: 1.50;
 letter-spacing: 0.02em;
 }
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
 .main-page {
 background:#2E2F42;
+}
+
+.main-page-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
 }
 
 .main-title {
@@ -164,8 +188,10 @@ button:focus {
 background: #404BBF;
 }
 
-.benefits-title {
- color: #fff;   
+.benefits-container {
+display: flex;
+gap: 8px;
+justify-content: center;
 }
 
 .benefits-list-title {
@@ -174,6 +200,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.20;
 letter-spacing: 0.02em; 
+margin-right: 24px;
 }
 
 .benefits-list-item {
@@ -181,10 +208,18 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.50;
 letter-spacing: 0.02em;
+margin-right: 24px;
 }
 
 .team-section {
 background:#F4F4FD;
+}
+
+.team-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-title {
@@ -194,10 +229,21 @@ font-size: 36px;
 line-height: 1.11; 
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
+}
+
+.team-list-container {
+    display: flex;
+    column-gap: 24px ;
+    
+    
+
 }
 
 .images-team {
 background: #FFF;
+width: calc((100% - 72px) / 4);
+
 }
 
 .team-list-title {
@@ -206,12 +252,24 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.20;
 letter-spacing: 0.02em;
+text-align: center; 
+margin-top: 32px ;
+margin-bottom: 8px;
 }
 
 .team-list-item {
 font-size: 16px;
 line-height: 1.50; 
 letter-spacing: 0.02em;
+text-align: center; 
+margin-bottom: 32px;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio-title {
@@ -223,9 +281,20 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
+.portfolio-list-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  
+  
+    
+}
+
 .images-portfolio {
 border: 1px solid #E7E9FC;
 background:#FFF;
+margin-right: 24px;
 }
 
 .portfolio-list-title {
