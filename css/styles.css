@@ -204,6 +204,10 @@ gap: 24px;
 justify-content: center;
 }
 
+.benefits-item-container{
+ width: calc((100% - 72px) / 4);
+}
+
 .benefits-list-title {
 color:#2E2F42;
 font-size: 20px;
